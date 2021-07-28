@@ -1,3 +1,6 @@
+// Package pubsub is a pubsub module for package Core build upon
+// watermill(https://github.com/ThreeDotsLabs/watermill). It allows other modules
+// to register pub sub handlers easily via an interface. See example for usage.
 package pubsub
 
 import (
