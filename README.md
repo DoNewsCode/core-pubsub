@@ -7,11 +7,11 @@
   </p>
   <p>
 
-[![Build](https://github.com/DoNewsCode/core-queue/actions/workflows/go.yml/badge.svg)](https://github.com/DoNewsCode/core-queue/actions/workflows/go.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/DoNewsCode/core-queue.svg)](https://pkg.go.dev/github.com/DoNewsCode/core-queue)
-[![codecov](https://codecov.io/gh/DoNewsCode/core-queue/branch/master/graph/badge.svg)](https://codecov.io/gh/DoNewsCode/core-queue)
-[![Go Report Card](https://goreportcard.com/badge/DoNewsCode/core-queue)](https://goreportcard.com/report/DoNewsCode/core-queue)
-[![Sourcegraph](https://sourcegraph.com/github.com/DoNewsCode/core-queue/-/badge.svg)](https://sourcegraph.com/github.com/DoNewsCode/core-queue?badge)
+[![Build](https://github.com/DoNewsCode/core-pubsub/actions/workflows/go.yml/badge.svg)](https://github.com/DoNewsCode/core-pubsub/actions/workflows/go.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/DoNewsCode/core-pubsub.svg)](https://pkg.go.dev/github.com/DoNewsCode/core-pubsub)
+[![codecov](https://codecov.io/gh/DoNewsCode/core-pubsub/branch/master/graph/badge.svg)](https://codecov.io/gh/DoNewsCode/core-pubsub)
+[![Go Report Card](https://goreportcard.com/badge/DoNewsCode/core-pubsub)](https://goreportcard.com/report/DoNewsCode/core-pubsub)
+[![Sourcegraph](https://sourcegraph.com/github.com/DoNewsCode/core-pubsub/-/badge.svg)](https://sourcegraph.com/github.com/DoNewsCode/core-pubsub?badge)
 
  </p>
 </div>
