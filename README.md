@@ -1,7 +1,20 @@
-# core-pubsub
-Package pubsub is a pubsub module for package Core build upon
-[Watermill](https://github.com/ThreeDotsLabs/watermill). It allows other modules
-to register pub sub handlers easily via an interface. See example for usage.
+
+<div align="center">
+  <h1>core-pubsub</h1>
+  <p>
+    <strong>A pubsub module for package <a href="github.com/DoNewsCode/core">Core</a> built upon
+<a href="https://github.com/ThreeDotsLabs/watermill">Watermill</a>.</strong>
+  </p>
+  <p>
+
+[![Build](https://github.com/DoNewsCode/core-queue/actions/workflows/go.yml/badge.svg)](https://github.com/DoNewsCode/core-queue/actions/workflows/go.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/DoNewsCode/core-queue.svg)](https://pkg.go.dev/github.com/DoNewsCode/core-queue)
+[![codecov](https://codecov.io/gh/DoNewsCode/core-queue/branch/master/graph/badge.svg)](https://codecov.io/gh/DoNewsCode/core-queue)
+[![Go Report Card](https://goreportcard.com/badge/DoNewsCode/core-queue)](https://goreportcard.com/report/DoNewsCode/core-queue)
+[![Sourcegraph](https://sourcegraph.com/github.com/DoNewsCode/core-queue/-/badge.svg)](https://sourcegraph.com/github.com/DoNewsCode/core-queue?badge)
+
+ </p>
+</div>
 
 ## Example
 ```go
