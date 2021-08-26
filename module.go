@@ -50,10 +50,11 @@ func New(in ModuleIn) (module Module, err error) {
 // ProvideRunGroup scans modules from container and collect all pubsubs. It
 // starts the pub/sub using the runner mechanism.
 func (m Module) ProvideRunGroup(group *run.Group) {
-	_ = m.container.Modules().Filter(func(p Provider) error {
-		p.ProvidePubSub(m.router)
-		return nil
-	})
+	for _, module := range m.container.Modules() {
+		if provider, ok := module.(Provider); ok {
+			provider.ProvidePubSub(m.router)
+		}
+	}
 
 	ctx, cancel := context.WithCancel(context.Background())
 	group.Add(func() error {
